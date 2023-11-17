@@ -1,3 +1,7 @@
+
+//Find the maximum number in an array of numbers
+
+
 function findMaxNumber(numbers) {
     if (numbers.length === 0) {
       return undefined; // Return undefined for an empty array
@@ -14,7 +18,7 @@ function findMaxNumber(numbers) {
     return max;
   }
   
-  // Example usage:
+  
   const numbersArray = [2, 7, 1, 8, 4, 5];
   const maxNumber = findMaxNumber(numbersArray);
   console.log(`The maximum number is: ${maxNumber}`);

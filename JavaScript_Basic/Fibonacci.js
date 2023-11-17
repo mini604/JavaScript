@@ -1,3 +1,8 @@
+
+
+//Print the first 10 Fibonacci numbers without recursion
+
+
 function printFibonacciNumbers(n) {
     let fib = [0, 1];
   

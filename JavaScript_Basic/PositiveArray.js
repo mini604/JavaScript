@@ -1,3 +1,8 @@
+
+//Create a function thatreceives an array of numbers as argument and returns an
+//array containing only the positive numbers
+
+
 function filterPositiveNumbers(numbers) {
     return numbers.filter(number => number > 0);
   }

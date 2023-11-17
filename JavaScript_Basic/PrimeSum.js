@@ -1,4 +1,5 @@
 
+
 //Calculate the sum of first 100 prime numbers and return them in an array
 
 function generatePrimes(count) {
@@ -34,6 +35,7 @@ function generatePrimes(count) {
     const sum = primes.reduce((acc, curr) => acc + curr, 0);
     return { primes, sum };
   }
+  
   
   const result = sumOfFirstNPrimes(100);
   console.log("The first 100 prime numbers are:", result.primes);

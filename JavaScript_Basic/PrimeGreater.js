@@ -1,3 +1,8 @@
+
+//Create a function that will return in an array the first“p” prime numbers
+//greaterthan“n” 
+
+
 function generatePrimesGreaterThanN(p, n) {
     const primes = [];
     let num = n + 1; // Start checking from the number greater than n
@@ -26,7 +31,7 @@ function generatePrimesGreaterThanN(p, n) {
     return true; // The number is prime
   }
   
-  // Example usage:
+  
   const numberOfPrimes = 5;
   const startNumber = 10;
   const primesGreaterThanN = generatePrimesGreaterThanN(numberOfPrimes, startNumber);

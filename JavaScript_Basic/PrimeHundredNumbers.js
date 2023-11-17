@@ -1,3 +1,7 @@
+
+
+//Print the first 100 prime numbers
+
 function generatePrimes(count) {
     const primes = [];
     let num = 2;
@@ -26,7 +30,7 @@ function generatePrimes(count) {
     return true; // The number is prime
   }
   
-  // Example usage:
+  
   const first100Primes = generatePrimes(100);
   console.log("The first 100 prime numbers are:", first100Primes);
   

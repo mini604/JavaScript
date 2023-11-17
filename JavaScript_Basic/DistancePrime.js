@@ -1,8 +1,8 @@
 
-//Print the distance between the first 100 prime numbers
 
+//Print the distance between the first 100 prime numbers 
 
-function generatePrimes(count) {         //prime number
+function generatePrimes(count) {
     const primes = [];
     let num = 2;
   
@@ -40,7 +40,7 @@ function generatePrimes(count) {         //prime number
     return distances;
   }
   
- 
+  
   const primes = generatePrimes(100);
   const distances = calculateDistances(primes);
   

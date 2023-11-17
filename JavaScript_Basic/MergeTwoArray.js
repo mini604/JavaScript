@@ -1,3 +1,7 @@
+
+
+//Create a function that will merge two arrays and return the result as a new array
+
 function mergeArrays(arr1, arr2) {
     return arr1.concat(arr2);
   }

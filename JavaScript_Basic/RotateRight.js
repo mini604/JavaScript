@@ -1,3 +1,6 @@
+
+//Rotate an array to the right 1 position
+
 function rotateRightByOne(arr) {
     if (arr.length <= 1) {
       return arr; // No need to rotate for arrays with 0 or 1 element
@@ -9,7 +12,6 @@ function rotateRightByOne(arr) {
     return arr;
   }
   
-  // Example usage:
   const originalArray = [1, 2, 3, 4, 5];
   const rotatedArray = rotateRightByOne(originalArray);
   console.log("Original Array:", originalArray);

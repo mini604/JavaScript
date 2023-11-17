@@ -1,3 +1,7 @@
+
+
+//Create afunction that will return aBoolean specifying if anumber is prime
+
 function isPrime(number) {
     if (number <= 1) {
       return false;
@@ -13,7 +17,7 @@ function isPrime(number) {
     return true; // The number is prime
   }
   
-  // Example usage:
+  
   const num1 = 7;
   const num2 = 12;
   

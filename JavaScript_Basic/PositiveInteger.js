@@ -1,3 +1,6 @@
+
+//Calculate the sum of digits of a positive integer number
+
 function sumOfDigits(number) {
     // Ensure the input is a positive integer
     if (number < 0 || !Number.isInteger(number)) {
