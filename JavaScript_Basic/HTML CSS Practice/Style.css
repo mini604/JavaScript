@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainhead{
+    font-family: sans-serif;
+    color: white;
+    background-color: red;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1.5px solid maroon;
+}
+
+.secondhead{
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px; 
+}
+
+a{
+    color: coral;
+}
+a:hover{
+    color:darkblue;
+}
+
+.para{
+    font-family: sans-serif;
+    line-height: 1.8rem;
+    font-size: 16px;
+    margin: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style-type: disc;
+    margin: 20px;
+    
+}
+
+li{
+    margin: 20px;
+}
+
+.image{
+    width: 12%;
+    border: 2px solid black;
+    margin-left: 20px;
+    
+
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
