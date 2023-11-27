@@ -10,6 +10,7 @@ function getWordsArray(text) {
   }
   
   
+  
   const text = "This is a sample text with several words.";
   const wordsArray = getWordsArray(text);
   console.log("Words Array:", wordsArray);
